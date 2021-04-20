@@ -1,5 +1,11 @@
+import Questions from "./components/Questions";
+
 function App() {
-  return <div>Accordion App</div>;
+  return (
+    <div>
+      <Questions />
+    </div>
+  );
 }
 
 export default App;
